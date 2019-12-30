@@ -1,5 +1,5 @@
 {
-  "project": "fe-credit-center",
+  "project": "fe-mixins",
   "deploy": {
     "qa": {
       "servers": [
@@ -8,27 +8,27 @@
           "username": "root"
         }
       ],
-      "targetDist": "dist/fe-credit-center",
+      "targetDist": "dist/fe-mixins",
       "testServerDirectory": [
         {
           "name": "default",
           "dir": "/home",
-          "pathname": "/fe-credit-center"
+          "pathname": "/fe-mixins"
         }
       ],
-      "buildIndex": "../dist/fe-credit-center/index.html",
-      "assetsRoot": "../dist/fe-credit-center",
+      "buildIndex": "../dist/fe-mixins/index.html",
+      "assetsRoot": "../dist/fe-mixins",
       "assetsSubDirectory": "static",
       "assetsPublicPath": "./"
     },
     "www": {
-      "targetDist": "dist__www/fe-credit-center",
+      "targetDist": "dist__www/fe-mixins",
       "feReleaseDist": "../fe-release-group",
-      "releaseGit": "git@gitlab.mljr.com:FEWeb-release-group/fe-credit-center.git",
-      "buildIndex": "../dist__www/fe-credit-center/index.html",
-      "assetsRoot": "../dist__www/fe-credit-center",
+      "releaseGit": "git@gitlab.mljr.com:FEWeb-release-group/fe-mixins.git",
+      "buildIndex": "../dist__www/fe-mixins/index.html",
+      "assetsRoot": "../dist__www/fe-mixins",
       "assetsSubDirectory": "static",
-      "assetsPublicPath": "//s1.mljr.com/fe-credit-center/"
+      "assetsPublicPath": "//s1.mljr.com/fe-mixins/"
     }
   }
 }
