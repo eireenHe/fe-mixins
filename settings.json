@@ -1,0 +1,34 @@
+{
+  "project": "fe-credit-center",
+  "deploy": {
+    "qa": {
+      "servers": [
+        {
+          "host": "192.168.49.251",
+          "username": "root"
+        }
+      ],
+      "targetDist": "dist/fe-credit-center",
+      "testServerDirectory": [
+        {
+          "name": "default",
+          "dir": "/home",
+          "pathname": "/fe-credit-center"
+        }
+      ],
+      "buildIndex": "../dist/fe-credit-center/index.html",
+      "assetsRoot": "../dist/fe-credit-center",
+      "assetsSubDirectory": "static",
+      "assetsPublicPath": "./"
+    },
+    "www": {
+      "targetDist": "dist__www/fe-credit-center",
+      "feReleaseDist": "../fe-release-group",
+      "releaseGit": "git@gitlab.mljr.com:FEWeb-release-group/fe-credit-center.git",
+      "buildIndex": "../dist__www/fe-credit-center/index.html",
+      "assetsRoot": "../dist__www/fe-credit-center",
+      "assetsSubDirectory": "static",
+      "assetsPublicPath": "//s1.mljr.com/fe-credit-center/"
+    }
+  }
+}

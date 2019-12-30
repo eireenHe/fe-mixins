@@ -1,0 +1,145 @@
+[v-cloak] {
+    opacity: 0;
+}
+
+html {
+  height: 100%;
+  font-style: 16px;
+}
+
+body {
+  height: 100%;
+  background: #f4f4f4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(204, 204, 204, .3);
+}
+
+body, button {
+    font-family: "Heiti SC", "微软雅黑", "Microsoft Yahei", Helvetica, "Helvetica Neue", "segoe UI Light", "Kozuka Gothic Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+// 面包屑样式
+.breadcrumb-wrap {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.toolbar {
+    background: #eef1f7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.el-pagination{
+    margin: 20px 0;
+    text-align: right;
+}
+.el-table,
+.el-table thead {
+    color: #333;
+}
+
+.el-table thead th,
+.el-table thead tr {
+  background: #f2f2f2 !important;
+}
+.el-table tbody .hover-row td,
+.el-table tbody tr:hover td {
+    background-color: #f8f8f8;
+}
+
+
+.el-header{
+    line-height: 60px;
+    // text-align: right;
+    background: #fff;
+}
+.toolbar input:not(:disabled)::-webkit-input-placeholder {
+  color: #666 !important;
+}
+.toolbar input:focus::-webkit-input-placeholder {
+  color: #bebebe !important;
+}
+.toolbar input:not(:focus) {
+  color: #4777E6;
+}
+
+.toolbar input:not(:disabled)::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #666 !important;
+}
+
+.toolbar input:not(:disabled):-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #666 !important;
+}
+
+.toolbar input:not(:disabled):-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #666 !important;
+}
+.el-input__inner,
+.el-button {
+    border-radius: 0;
+}
+.toolbar .el-form-item{
+    margin-bottom: 10px;
+}
+.toolbar{
+    background-color: #f2f2f2;
+}
+.toolbar.el-form {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.el-table .cell a {
+    display: inline-block;
+}
+.el-table .cell .link-btn:not(:first-child) {
+    display: block;
+    margin-top: 5px;
+}
+.el-date-table td span{
+    border-radius: 0;
+}
+.el-date-table td:not(.current):hover span {
+    background-color: #f2f2f2;
+}
+.el-form-item.is-success .el-input__inner,
+.el-form-item.is-success .el-input__inner:focus,
+.el-form-item.is-success .el-textarea__inner,
+.el-form-item.is-success .el-textarea__inner:focus{
+    border-color: #dcdfe6;
+
+}
+
+
